@@ -43,9 +43,7 @@
         }]
     }
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&family=Noto+Serif+KR:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -54,7 +52,8 @@
 <nav class="nav">
     <div class="nav-inner">
         <a href="#" class="nav-logo">
-            <span class="logo-anvil">&#9878;</span> 데브스미스
+            <div class="logo-icon">D</div>
+            데브스미스
         </a>
         <ul class="nav-links">
             <li><a href="#about">소개</a></li>
@@ -70,13 +69,12 @@
 
 <!-- Hero Section -->
 <header class="hero">
-    <div class="hero-sparks">
-        <div class="spark"></div>
-        <div class="spark"></div>
-        <div class="spark"></div>
-        <div class="spark"></div>
-        <div class="spark"></div>
-        <div class="spark"></div>
+    <div class="hero-elements">
+        <div class="element-orb wood"></div>
+        <div class="element-orb fire"></div>
+        <div class="element-orb earth"></div>
+        <div class="element-orb metal"></div>
+        <div class="element-orb water"></div>
     </div>
     <div class="hero-content">
         <p class="hero-label">1인 출판사</p>
@@ -86,7 +84,13 @@
         <p class="hero-subtitle">코드를 벼리는 대장장이</p>
         <div class="hero-divider">
             <span class="divider-line"></span>
-            <span class="divider-icon">&#9878;</span>
+            <span class="element-dots">
+                <span class="element-dot wood"></span>
+                <span class="element-dot fire"></span>
+                <span class="element-dot earth"></span>
+                <span class="element-dot metal"></span>
+                <span class="element-dot water"></span>
+            </span>
             <span class="divider-line"></span>
         </div>
         <p class="hero-tagline">AI라는 새 화로, 그래도 치는 건 나다</p>
@@ -187,9 +191,7 @@
     <div class="container">
         <h2 class="section-title">저자 소개</h2>
         <div class="author-card">
-            <div class="author-avatar">
-                <span>&#9878;</span>
-            </div>
+            <div class="author-avatar">D</div>
             <div class="author-info">
                 <h3 class="author-name">장진익</h3>
                 <p class="author-role">저자</p>
@@ -224,9 +226,10 @@
 <footer class="footer">
     <div class="container">
         <div class="footer-inner">
-            <p class="footer-logo">
-                <span class="logo-anvil">&#9878;</span> 데브스미스
-            </p>
+            <div class="footer-logo">
+                <div class="logo-icon">D</div>
+                데브스미스
+            </div>
             <p class="footer-copy">&copy; 2026 데브스미스. All rights reserved.</p>
             <p class="footer-tagline">코드를 벼리는 대장장이</p>
         </div>
