@@ -142,17 +142,9 @@ img {
     color: var(--earth-brown);
 }
 
-.logo-icon {
-    width: 32px;
-    height: 32px;
-    background: linear-gradient(135deg, var(--earth-deep), var(--water-blue));
-    border-radius: var(--radius-md);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 0.9rem;
-    font-weight: 700;
+.nav-logo-img {
+    height: 36px;
+    width: auto;
 }
 
 .nav-links {
@@ -706,13 +698,20 @@ img {
     flex-shrink: 0;
     width: 88px;
     height: 88px;
-    background: linear-gradient(135deg, var(--earth-deep), var(--water-blue));
+    background: var(--earth-warm-sand);
+    border: 2px solid var(--earth-soft-clay);
     border-radius: var(--radius-full);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.2rem;
-    color: white;
+    overflow: hidden;
+    padding: var(--space-sm);
+}
+
+.author-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .author-name {
@@ -808,10 +807,9 @@ img {
     gap: var(--space-sm);
 }
 
-.footer-logo .logo-icon {
-    width: 24px;
-    height: 24px;
-    font-size: 0.7rem;
+.footer-logo-img {
+    height: 28px;
+    width: auto;
 }
 
 .footer-copy {
