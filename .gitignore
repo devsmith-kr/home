@@ -4,6 +4,7 @@
 *.iws
 *.ipr
 out/
+sample
 
 # Mac
 .DS_Store
