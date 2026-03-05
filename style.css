@@ -377,8 +377,8 @@ img {
 
 .element-dot.wood  { background: var(--wood-green); }
 .element-dot.fire  { background: var(--fire-red); }
-.element-dot.earth { background: var(--earth-deep); width: 9px; height: 9px; }
-.element-dot.metal { background: var(--metal-pearl); border: 1px solid var(--earth-soft-clay); }
+.element-dot.earth { background: var(--earth-deep); }
+.element-dot.metal { background: #C0C4CC; }
 .element-dot.water { background: var(--water-blue); }
 
 .element-dots:hover .element-dot {
